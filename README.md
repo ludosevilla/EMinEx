@@ -8,6 +8,8 @@ Le programme est disponible en deux versions :
 - **Cassette** (chargement via `BLOAD "CAS:",R` pour les amateurs de nostalgie et de patience).  
 - **Disquette** (chargement plus rapide pour les plus pressés).  
 
+![Menu](images/menu.png)
+
 ## 🎛️ Options disponibles au lancement  
 - **F1** : Connexion à MiniPavi pour accéder aux services Minitel.  
 - **F2** : Mode local pour saisir directement du Vidéotex (ex. : `ESC` + `A` pour du texte rouge).  
