@@ -25,6 +25,8 @@ En version disquette, **EMinEx** permet également d’afficher des fichiers Vid
 ## 🔗 Connexion à MiniPavi  
 Le logiciel établit automatiquement une connexion vers **go.minipavi.fr:516**. Une fois en ligne, il ne vous reste plus qu’à suivre les indications et explorer les services disponibles.  
 
+![MiniPavi](images/minipavi.png)
+
 ### ⌨️ Correspondance des touches MSX ⮕ Minitel  
 | **MSX** | **Minitel** |
 |---------|------------|
@@ -55,6 +57,7 @@ L’objectif initial était de fournir un émulateur Minitel fonctionnel sur **M
 Le développement s’est appuyé sur la **MSXgl** ([disponible ici](https://aoineko.org/msxgl/)).  
 Un immense merci à **Aoineko** pour sa patience face à mes nombreuses questions sur le développement MSX !  
 
+![Meteo](images/meteo.png)
 ---
 
 Si vous avez toujours rêvé d’un Minitel sur MSX, **EMinEx** est là pour exaucer votre souhait.  
