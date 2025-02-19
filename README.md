@@ -1,3 +1,5 @@
+[🇬🇧 English version](#eminex-when-the-msx-becomes-a-minitel-version-01)
+
 # EMinEx : Quand le MSX joue au Minitel (version 0.1) 
 
 **EMinEx** est un émulateur Minitel (norme **Vidéotex CEPT2**) conçu pour fonctionner sur les ordinateurs **MSX1**. Oui, vous avez bien lu : votre MSX peut désormais se prendre pour un Minitel !  
@@ -62,3 +64,75 @@ Un immense merci à **Aoineko** pour sa patience face à mes nombreuses question
 
 Si vous avez toujours rêvé d’un Minitel sur MSX, **EMinEx** est là pour exaucer votre souhait.  
 **Profitez bien du voyage temporel ! 🚀**  
+
+---
+
+# EMinEx: When the MSX Becomes a Minitel (version 0.1)
+
+**EMinEx** is a Minitel emulator (**Vidéotex CEPT2** standard) designed to run on **MSX1** computers. Yes, you read that right: your MSX can now impersonate a Minitel!
+
+With a **BadCat WiFi Modem** cartridge ([available here](https://sites.google.com/view/badcatelectronics/msx/badcat-wifi-modem)), you can access Vidéotex services via the **MiniPavi** gateway ([see here](https://www.minipavi.fr/)).
+
+The program is available in two versions:
+- **Cassette** (loaded via `BLOAD "CAS:",R` for those who enjoy nostalgia and patience).
+- **Floppy Disk (MSX-DOS 1)** (faster loading for the more impatient users).
+
+![Menu](images/menu.png)
+
+## 🎛️ Available Options at Startup
+- **F1**: Connect to MiniPavi to access Minitel services.
+- **F2**: Local mode to directly enter Vidéotex commands (e.g., `ESC` + `A` for red text).
+- **F3**: Terminal mode allowing direct modem command input (`ATA`, `ATI`...). In this mode, text is displayed as raw data, without Vidéotex interpretation.
+- **F5**: Exit the program with style and grace.
+
+In floppy disk mode, **EMinEx** also allows viewing **Vidéotex files** (`.VDT`) stored on the disk.
+
+📌 **Tip**: At any time, press **SELECT** to return to the main menu (a lifesaver in moments of panic).
+
+---
+
+## 🔗 Connecting to MiniPavi
+The software automatically establishes a connection to **go.minipavi.fr:516**. Once online, simply follow the instructions and explore the available services.
+
+![MiniPavi](images/minipavi.png)
+
+### ⌨️ MSX ⮕ Minitel Key Mapping
+| **MSX Key** | **Minitel Equivalent** |
+|------------|-----------------------|
+| **Return** | Send |
+| **Down Arrow** | Next |
+| **Up Arrow** | Back |
+| **Left Arrow** | Home |
+| **Right Arrow** | Repeat |
+| **Backspace** | Correction |
+| **Delete** | Cancel |
+| **Insert** | Guide |
+| **Esc** | Connect/Exit |
+
+---
+
+## ⚠️ Limitations (Because Nothing is Perfect)
+- The **MSX1** display mode (**SCR2**) does not allow for 100% accurate Vidéotex rendering, so expect some visual artifacts.
+- The emulation achieves around **90%** fidelity, meaning some display glitches may occur.
+- Several Vidéotex features are **not supported**: blinking text, CSI sequences, certain protocol commands (e.g., uppercase/lowercase locking), etc.
+- **Text input is not supported**, though it is correctly displayed.
+- The display is **limited to 40 columns × 24 lines**, whereas the Minitel uses **40 × 25 lines**. Consequently, the first line of the Minitel (**line 00**) briefly appears on line 1 before being replaced.
+- **And finally, if you encounter a bug, just consider it an unexpected feature… and be forgiving!**
+
+---
+
+## 🛠️ Technical Details
+The initial goal was to create a functional **Minitel emulator for MSX1**, with cassette compatibility for broader accessibility.
+
+The development relied on **MSXgl** ([available here](https://aoineko.org/msxgl/)).
+A huge thank you to **Aoineko** for patiently answering my numerous questions about MSX development!
+
+![Meteo](images/meteo.png)
+
+---
+
+If you've always dreamed of having a Minitel on your MSX, **EMinEx** is here to make that dream come true.
+
+**Enjoy the time-traveling experience! 🚀**
+
+
