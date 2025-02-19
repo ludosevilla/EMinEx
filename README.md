@@ -6,7 +6,7 @@ Grâce à une cartouche **BadCat Modem WiFi** ([disponible ici](https://sites.go
 
 Le programme est disponible en deux versions :  
 - **Cassette** (chargement via `BLOAD "CAS:",R` pour les amateurs de nostalgie et de patience).  
-- **Disquette** (chargement plus rapide pour les plus pressés).  
+- **Disquette (MSX-DOS 1)** (chargement plus rapide pour les plus pressés).  
 
 ![Menu](images/menu.png)
 
