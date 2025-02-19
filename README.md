@@ -6,6 +6,8 @@
 
 Grâce à une cartouche **BadCat Modem WiFi** ([disponible ici](https://sites.google.com/view/badcatelectronics/msx/badcat-wifi-modem)), il est possible d’accéder aux services Vidéotex via le point d’accès **MiniPavi** ([voir ici](https://www.minipavi.fr/)).  
 
+Une vidéo Youtube de démonstration est disponible [ici](https://youtu.be/pvBjVk3af6c).
+
 Le programme est disponible en deux versions :  
 - **Cassette** (chargement via `BLOAD "CAS:",R` pour les amateurs de nostalgie et de patience).  
 - **Disquette (MSX-DOS 1)** (chargement plus rapide pour les plus pressés).  
@@ -72,6 +74,8 @@ Si vous avez toujours rêvé d’un Minitel sur MSX, **EMinEx** est là pour exa
 **EMinEx** is a Minitel emulator (**Vidéotex CEPT2** standard) designed to run on **MSX1** computers. Yes, you read that right: your MSX can now impersonate a Minitel!
 
 With a **BadCat WiFi Modem** cartridge ([available here](https://sites.google.com/view/badcatelectronics/msx/badcat-wifi-modem)), you can access Vidéotex services via the **MiniPavi** gateway ([see here](https://www.minipavi.fr/)).
+
+A demo Youtube video is available [here](https://youtu.be/pvBjVk3af6c).
 
 The program is available in two versions:
 - **Cassette** (loaded via `BLOAD "CAS:",R` for those who enjoy nostalgia and patience).
