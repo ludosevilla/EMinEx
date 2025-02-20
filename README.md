@@ -48,7 +48,7 @@ Le logiciel établit automatiquement une connexion vers **go.minipavi.fr:516**. 
 
 ## ⚠️ Limitations (parce que rien n’est parfait)  
 - L’affichage du **MSX1** (mode **SCR2**) ne permet pas une fidélité absolue : attendez-vous à quelques imperfections visuelles.  
-- L’émulation atteint environ **90 %** de fidélité : certains artefacts peuvent apparaître.
+- L’émulation atteint environ **90 %** de fidélité : certains artefacts peuvent (vont) apparaître.
 - La saisie de caractères accentués n'est pas pris en charge (leur affichage, si)
 - Fonctionnalités non prises en charge : clignotement, séquences CSI, certaines commandes du protocole (blocage majuscules/minuscules, etc.), DRCS, mode 80 colonnes...  
 - **L’affichage est limité à 40 colonnes × 24 lignes**, alors que le Minitel utilise 40 × 25. Résultat : la première ligne du Minitel (**ligne 00**) s’affiche brièvement sur la ligne 1 avant d’être remplacée.
@@ -118,7 +118,7 @@ The software automatically establishes a connection to **go.minipavi.fr:516**. O
 
 ## ⚠️ Limitations (Because Nothing is Perfect)
 - The **MSX1** display mode (**SCR2**) does not allow for 100% accurate Vidéotex rendering, so expect some visual artifacts.
-- The emulation achieves around **90%** fidelity, meaning some display glitches may occur.
+- The emulation achieves around **90%** fidelity, meaning some display glitches may (will) occur.
 - Several Vidéotex features are **not supported**: blinking text, CSI sequences, certain protocol commands (e.g., uppercase/lowercase locking), DRCS, 80 columns mode, etc.
 - **Accented characters input is not supported**, though they are correctly displayed.
 - The display is **limited to 40 columns × 24 lines**, whereas the Minitel uses **40 × 25 lines**. Consequently, the first line of the Minitel (**line 00**) briefly appears on line 1 before being replaced.
