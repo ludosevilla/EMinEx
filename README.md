@@ -7,7 +7,9 @@
 
 **EMinEx** est un émulateur Minitel (norme **Vidéotex CEPT2**) conçu pour fonctionner sur les ordinateurs **MSX1**. Oui, vous avez bien lu : votre MSX peut désormais se prendre pour un Minitel !  
 
-Grâce à une cartouche **BadCat Modem WiFi** ([disponible ici](https://sites.google.com/view/badcatelectronics/msx/badcat-wifi-modem)), il est possible d’accéder aux services Vidéotex via le point d’accès **MiniPavi** ([voir ici](https://www.minipavi.fr/)).  
+Minitel, commercialement exploité en France entre 1980 et 2012, a été le premier service au monde à donner accès à des services variés préfigurant ceux du futur Internet grand public, et le plus développé en 1990, avec près de 7 millions de foyers équipés. Il utilisait la norme Videotex, profile CEPT-2 (au contraire de Prestel au Royaume-Uni qui utilisait le Videotex profile CEPT-3 ou Ibertex en Espagne qui utilisait le profile CEPT-1)
+
+Grâce à une cartouche **BadCat Modem WiFi** ([disponible ici](https://sites.google.com/view/badcatelectronics/msx/badcat-wifi-modem)), il est possible d’accéder aux services Vidéotex via le point d’accès **MiniPavi** ([voir ici](https://www.minipavi.fr/)), lequel offre aujourd'hui un panel de différents services actifs (et qui vous permet également de créer le vôtre !).  
 
 Une vidéo Youtube de démonstration est disponible [ici](https://youtu.be/pvBjVk3af6c).
 
@@ -112,7 +114,9 @@ Si vous avez toujours rêvé d’un Minitel sur MSX, **EMinEx** est là pour exa
 
 **EMinEx** is a Minitel emulator (**Vidéotex CEPT2** standard) designed to run on **MSX1** computers. Yes, you read that right: your MSX can now impersonate a Minitel!
 
-With a **BadCat WiFi Modem** cartridge ([available here](https://sites.google.com/view/badcatelectronics/msx/badcat-wifi-modem)), you can access Vidéotex services via the **MiniPavi** gateway ([see here](https://www.minipavi.fr/)).
+Minitel, commercially operated in France between 1980 and 2012, was the world's first service to provide access to a variety of services foreshadowing those of the future public Internet. It was also the most developed in 1990, with nearly 7 million households equipped. It used the Videotex standard, CEPT-2 profile (unlike Prestel in the United Kingdom, which used the CEPT-3 Videotex profile, or Ibertex in Spain, which used the CEPT-1 profile).
+
+With a **BadCat WiFi Modem** cartridge ([available here](https://sites.google.com/view/badcatelectronics/msx/badcat-wifi-modem)), you can access Vidéotex services via the **MiniPavi** gateway ([see here](https://www.minipavi.fr/)) which currently offers a range of active services (and also allows you to create your own!).
 
 A demo Youtube video is available [here](https://youtu.be/pvBjVk3af6c).
 
@@ -219,7 +223,9 @@ If you've always dreamed of having a Minitel on your MSX, **EMinEx** is here to 
 
 **EMinEx** es un emulador de Minitel (norma **Vidéotex CEPT2**) diseñado para funcionar en ordenadores **MSX1**. Sí, has leído bien: ¡tu MSX ahora puede hacerse pasar por un Minitel!
 
-Gracias al cartucho **BadCat Modem WiFi** ([disponible aquí](https://sites.google.com/view/badcatelectronics/msx/badcat-wifi-modem)), es posible acceder a los servicios de Vidéotex a través del punto de acceso **MiniPavi** ([más información aquí](https://www.minipavi.fr/)).
+Minitel, operado comercialmente en Francia entre 1980 y 2012, fue el primer servicio en el mundo en ofrecer acceso a una variedad de servicios que prefiguraban los del futuro Internet público. También fue el más desarrollado en 1990, con casi 7 millones de hogares equipados. Utilizaba el estándar Videotex, perfil CEPT-2 (a diferencia de Prestel en el Reino Unido, que usaba el perfil CEPT-3 de Videotex, o Ibertex en España, que usaba el perfil CEPT-1).
+
+Gracias al cartucho **BadCat Modem WiFi** ([disponible aquí](https://sites.google.com/view/badcatelectronics/msx/badcat-wifi-modem)), es posible acceder a los servicios de Vidéotex a través del punto de acceso **MiniPavi** ([más información aquí](https://www.minipavi.fr/)) que hoy en día ofrece una variedad de servicios activos (¡y que también te permite crear el tuyo!).
 
 Un video de demostración en YouTube está disponible [aquí](https://youtu.be/pvBjVk3af6c).
 
@@ -249,15 +255,15 @@ El software establece automáticamente una conexión con **go.minipavi.fr:516**.
 ### ⌨️ Correspondencia de teclas MSX ⮕ Minitel
 | **MSX** | **Minitel** |
 |---------|------------|
-| **Return** | Enviar |
-| **Flecha abajo** | Siguiente |
-| **Flecha arriba** | Atrás |
-| **Flecha izquierda** | Índice |
-| **Flecha derecha** | Repetición |
-| **Backspace** | Corrección |
-| **Supr** | Cancelar |
-| **Ins** | Guía |
-| **Esc** | Conexión/Fin |
+| **Return** | Enviar (Envoi) |
+| **Flecha abajo** | Siguiente (Suite) |
+| **Flecha arriba** | Atrás (Retour) |
+| **Flecha izquierda** | Índice (Sommaire) |
+| **Flecha derecha** | Repetición (Répétition) |
+| **Backspace** | Corrección (Correction) |
+| **Supr** | Cancelar (Annulation) |
+| **Ins** | Guía (Guide) |
+| **Esc** | Conexión/Fin (Connexion/Fin) |
 
 ---
 
