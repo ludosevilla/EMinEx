@@ -277,7 +277,7 @@ El objetivo inicial era proporcionar un emulador de Minitel funcional en **MSX1*
 El desarrollo se basó en **MSXgl** ([disponible aquí](https://aoineko.org/msxgl/)).
 Un enorme agradecimiento a **Aoineko** por su paciencia con mis innumerables preguntas sobre el desarrollo en MSX.
 
-### Mostrar Vidéotex en MSX: ¡Un desafío digno de los mejores!
+### Mostrar Vidéotex en MSX: ¡Un desafío para los valientes (y los pacientes)!
 
 Vidéotex y MSX 1... Dos mundos que no parecían destinados a entenderse.  
 Por un lado, una pantalla de **25 líneas de 40 caracteres** en **10x8 píxeles**, es decir, una resolución de **250x320**, con una paleta de **8 colores** y una restricción: **solo 2 colores por carácter**.  
