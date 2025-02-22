@@ -50,7 +50,7 @@ Le logiciel établit automatiquement une connexion vers **go.minipavi.fr:516**. 
 - L’affichage du **MSX1** (mode **SCR2**) ne permet pas une fidélité absolue : attendez-vous à quelques imperfections visuelles.  
 - L’émulation atteint environ **90 %** de fidélité : certains artefacts peuvent (vont) apparaître.
 - La saisie de caractères accentués n'est pas pris en charge (leur affichage, si)
-- Fonctionnalités non prises en charge : clignotement, séquences CSI, certaines commandes du protocole (blocage majuscules/minuscules, etc.), DRCS, mode 80 colonnes...  
+- Fonctionnalités non prises en charge : clignotement, séquences CSI, certaines commandes du protocole (blocage majuscules/minuscules, etc.), DRCS, masquage, mode 80 colonnes...  
 - **L’affichage est limité à 40 colonnes × 24 lignes**, alors que le Minitel utilise 40 × 25. Résultat : la première ligne du Minitel (**ligne 00**) s’affiche brièvement sur la ligne 1 avant d’être remplacée.
 - **Enfin, si vous tombez sur un bug, dites-vous que c’est une fonctionnalité imprévue… et soyez indulgents !**  
 
