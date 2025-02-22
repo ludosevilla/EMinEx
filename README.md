@@ -1,6 +1,6 @@
 [🇬🇧 English version](#eminex-when-the-msx-becomes-a-minitel-version-01)
 
-[🇪🇸 Versión en español](#eminex-cuando-el-msx-juega-a-ser-un-minitel-version-01)
+[🇪🇸 Versión en español](#eminex-cuando-el-msx-juega-a-ser-un-minitel-versi-n-01)
 
 
 # EMinEx : Quand le MSX joue au Minitel (version 0.1) 
