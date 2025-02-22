@@ -1,5 +1,8 @@
 [🇬🇧 English version](#eminex-when-the-msx-becomes-a-minitel-version-01)
 
+[🇪🇸 Versión en español](#eminex-cuando-el-msx-juega-a-ser-un-minitel-version-01)
+
+
 # EMinEx : Quand le MSX joue au Minitel (version 0.1) 
 
 **EMinEx** est un émulateur Minitel (norme **Vidéotex CEPT2**) conçu pour fonctionner sur les ordinateurs **MSX1**. Oui, vous avez bien lu : votre MSX peut désormais se prendre pour un Minitel !  
@@ -204,11 +207,103 @@ So, the **topmost line (line 00) is displayed as line 1**, but internally, it st
 A little trick to align the stars… or rather, **the pixels**! ✨  
 
 ![Meteo](images/meteo.png)
-
 ---
 
 If you've always dreamed of having a Minitel on your MSX, **EMinEx** is here to make that dream come true.
 
 **Enjoy the time-traveling experience! 🚀**
+
+---
+
+# EMinEx : Cuando el MSX juega a ser un Minitel (versión 0.1)
+
+**EMinEx** es un emulador de Minitel (norma **Vidéotex CEPT2**) diseñado para funcionar en ordenadores **MSX1**. Sí, has leído bien: ¡tu MSX ahora puede hacerse pasar por un Minitel!
+
+Gracias al cartucho **BadCat Modem WiFi** ([disponible aquí](https://sites.google.com/view/badcatelectronics/msx/badcat-wifi-modem)), es posible acceder a los servicios de Vidéotex a través del punto de acceso **MiniPavi** ([más información aquí](https://www.minipavi.fr/)).
+
+Un video de demostración en YouTube está disponible [aquí](https://youtu.be/pvBjVk3af6c).
+
+El programa está disponible en dos versiones:
+- **Casete** (carga mediante `BLOAD "CAS:",R` para los nostálgicos con paciencia infinita).
+- **Disquete (MSX-DOS 1)** (carga rápida para los que no pueden esperar).
+
+![Menu](images/menu.png)
+
+## 🎛️ Opciones disponibles al iniciar
+- **F1** : Conexión a MiniPavi para acceder a los servicios Minitel.
+- **F2** : Modo local para escribir directamente en Vidéotex (ej.: `ESC` + `A` para texto rojo).
+- **F3** : Modo terminal que permite enviar comandos al módem (`ATA`, `ATI`…). Aquí no hay interpretación de Vidéotex, es puro y duro.
+- **F5** : Salir del programa con estilo y elegancia.
+
+En la versión de disquete, **EMinEx** también permite visualizar archivos Vidéotex (`.VDT`) almacenados en el disco.
+
+📌 **Truco**: En cualquier momento, la tecla **SELECT** permite volver al menú principal (muy útil en caso de pánico).
+
+---
+
+## 🔗 Conexión a MiniPavi
+El software establece automáticamente una conexión con **go.minipavi.fr:516**. Una vez en línea, solo queda seguir las instrucciones y explorar los servicios disponibles.
+
+![MiniPavi](images/minipavi.png)
+
+### ⌨️ Correspondencia de teclas MSX ⮕ Minitel
+| **MSX** | **Minitel** |
+|---------|------------|
+| **Return** | Enviar |
+| **Flecha abajo** | Siguiente |
+| **Flecha arriba** | Atrás |
+| **Flecha izquierda** | Índice |
+| **Flecha derecha** | Repetición |
+| **Backspace** | Corrección |
+| **Supr** | Cancelar |
+| **Ins** | Guía |
+| **Esc** | Conexión/Fin |
+
+---
+
+## ⚠️ Limitaciones (porque nada es perfecto)
+- La pantalla del **MSX1** (modo **SCR2**) no permite una fidelidad absoluta: espera algunas imperfecciones visuales.
+- La emulación alcanza aproximadamente **90 %** de fidelidad: algunos artefactos pueden (y van a) aparecer.
+- No se admite la entrada de caracteres acentuados (su visualización sí).
+- Funcionalidades no soportadas: parpadeo, secuencias CSI, ciertos comandos del protocolo (bloqueo de mayúsculas/minúsculas, etc.), DRCS, enmascaramiento, modo de 80 columnas...
+- **La pantalla está limitada a 40 columnas × 24 líneas**, mientras que el Minitel usa 40 × 25. Resultado: la primera línea del Minitel (**línea 00**) se muestra brevemente en la línea 1 antes de ser reemplazada.
+- **Por último, si encuentras un bug, piensa que es una característica inesperada... y sé indulgente!**
+
+---
+
+## 🛠️ Aspecto técnico
+El objetivo inicial era proporcionar un emulador de Minitel funcional en **MSX1**, con compatibilidad con casete para maximizar su accesibilidad.
+
+El desarrollo se basó en **MSXgl** ([disponible aquí](https://aoineko.org/msxgl/)).
+Un enorme agradecimiento a **Aoineko** por su paciencia con mis innumerables preguntas sobre el desarrollo en MSX.
+
+### Mostrar Vidéotex en MSX: ¡Un desafío digno de los mejores!
+
+Vidéotex y MSX 1... Dos mundos que no parecían destinados a entenderse.  
+Por un lado, una pantalla de **25 líneas de 40 caracteres** en **10x8 píxeles**, es decir, una resolución de **250x320**, con una paleta de **8 colores** y una restricción: **solo 2 colores por carácter**.  
+Por otro, el venerable **MSX 1**, mostrando **24 líneas de 32 caracteres** en **8x8 píxeles**, con una resolución de **192x256**, y una limitación clásica: **máximo 2 colores por línea de 8 píxeles en modo Screen 2**.
+
+A esto se suma el soporte de **scrolling vertical** (arriba y abajo, por supuesto), caracteres en **doble altura**, **doble anchura** y **doble tamaño** para el Minitel, especificidades desconocidas para el MSX 1. ¡Un reto técnico apasionante!
+
+### Dos enfoques posibles
+
+1. **Mostrar solo 32 caracteres por línea** y permitir un **scrolling horizontal** para ver los 8 caracteres ocultos.
+2. **Redefinir la pantalla para mostrar 40 caracteres de 6 píxeles de ancho**, una solución más elegante... pero también más complicada.
+
+Elegí la segunda opción. ¡Porque para qué hacer las cosas fáciles cuando se pueden hacer complicadas! 😃
+
+### Una gimnasia de píxeles y colores
+Cada carácter tiene **6 píxeles de ancho x 8 de alto** y se extiende *a caballo* sobre dos tiles adyacentes, con un **desplazamiento cíclico variable**.
+
+Pero el problema no es solo de píxeles: **los colores también tienen que encajar**, lo que no es tarea fácil.  
+Con este desplazamiento, podrías terminar con **hasta 4 colores por línea de 8 píxeles**, mientras que el modo **Screen 2** del MSX impone **2 colores por línea**.  
+
+¡Un verdadero rompecabezas de paleta!
+
+![Meteo](images/meteo.png)
+---
+
+Si siempre has soñado con tener un Minitel en tu MSX, **EMinEx** está aquí para cumplir tu deseo.  
+**¡Disfruta del viaje en el tiempo! 🚀**
 
 
