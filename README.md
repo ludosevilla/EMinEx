@@ -62,6 +62,41 @@ L’objectif initial était de fournir un émulateur Minitel fonctionnel sur **M
 Le développement s’est appuyé sur la **MSXgl** ([disponible ici](https://aoineko.org/msxgl/)).  
 Un immense merci à **Aoineko** pour sa patience face à mes nombreuses questions sur le développement MSX !  
 
+### Affichage Vidéotex sur MSX : Un défi digne des plus grands !  
+
+Affichage Vidéotex et MSX 1… Deux mondes bien différents qui n’étaient pas vraiment faits pour s’entendre.  
+D’un côté, un écran de **25 lignes de 40 caractères** en **10x8 pixels**, soit une résolution de **250x320**, avec une palette de **8 couleurs** et une contrainte : **seulement 2 couleurs par caractère**.  
+De l’autre, le vénérable **MSX 1**, affichant **24 lignes de 32 caractères** en **8x8 pixels**, pour une résolution de **192x256**, avec une limitation bien connue : **pas plus de 2 couleurs par ligne de 8 pixels en mode Screen 2**.  
+
+Ajoutez à cela le support du **scrolling vertical** (haut et bas, s’il vous plaît), des caractères en **double hauteur**, **double largeur** et **double taille** pour le Minitel, spécificités inconnues du MSX 1 ! Bref, un défi technique passionnant !  
+
+### Deux approches étaient possibles  
+
+1. **Afficher uniquement 32 caractères par ligne** et permettre un **scrolling horizontal** pour découvrir les 8 caractères cachés.  
+2. **Redéfinir l’écran pour afficher 40 caractères de 6 pixels de large**, une solution plus élégante… mais aussi bien plus corsée.  
+
+J’ai choisi la deuxième option. **Parce que pourquoi faire simple quand on peut faire compliqué ?** 😃  
+
+### Une gymnastique de pixels et de couleurs  
+
+Chaque caractère fait donc **6 pixels de large x 8 pixels de haut** et s’étale *à cheval* sur deux tuiles adjacentes, avec un **décalage cyclique variable**.
+
+Une gymnastique qui ne concerne pas seulement les pixels : **les couleurs doivent suivre**, et ce n'est pas une mince affaire !  
+
+En effet, avec ce décalage, on peut se retrouver avec **jusqu’à 4 couleurs par ligne de 8 pixels**, alors que le mode **Screen 2** du MSX impose **2 couleurs par ligne de 8 pixels**.  
+
+Un vrai casse-tête de palette !  
+
+### Résultat final  
+
+L’écran affiche bien **40 caractères sur 24 lignes**.  
+Pourquoi **24 et non 25** comme sur un Minitel ?  
+Parce que le décalage au niveau des colonnes était déjà assez compliqué, et je n'allais pas y ajouter un décalage au niveau des lignes !
+Ainsi, la ligne 00 (celle du haut) est affichée en **ligne 1**, mais reste traitée en interne comme une **ligne 0**.  
+
+Un petit tour de passe-passe qui permet d’aligner les étoiles… ou plutôt **les pixels** ! ✨  
+
+
 ![Meteo](images/meteo.png)
 ---
 
@@ -131,6 +166,42 @@ The initial goal was to create a functional **Minitel emulator for MSX1**, with 
 
 The development relied on **MSXgl** ([available here](https://aoineko.org/msxgl/)).
 A huge thank you to **Aoineko** for patiently answering my numerous questions about MSX development!
+
+# Videotex on MSX: A Challenge for the Brave!  
+
+Videotex and the MSX 1… Two vastly different worlds that were never meant to work together.  
+On one side, a **25-line, 40-character display**, with **10x8 pixel characters**, making for a **250x320 resolution**, an **8-color palette**, and one key constraint: **only 2 colors per character**.  
+On the other, the legendary **MSX 1**, with **24 lines of 32 characters**, each **8x8 pixels**, for a **192x256 resolution**, and a notorious limitation: **no more than 2 colors per 8-pixel row in Screen 2 mode**.  
+
+Now throw in **vertical scrolling** (both up *and* down, mind you), **double-height**, **double-width**, and **double-size characters** for Videotex—features completely unknown to the MSX 1!  
+Yeah… this was going to be an *interesting* challenge.  
+
+## Two Possible Approaches  
+
+1. **Display only 32 characters per line** and introduce **horizontal scrolling** to reveal the missing 8 characters.  
+2. **Redefine the screen layout to fit 40 characters using 6-pixel-wide glyphs**—a more elegant solution… but also a far trickier one.  
+
+Naturally, I went for the second option. **Because why take the easy way when you can make your life complicated?** 😃  
+
+## A Pixel & Color Gymnastics Routine  
+
+Each character is now **6 pixels wide by 8 pixels high**, cleverly overlapping onto **two adjacent tiles** with a **cyclic variable shift**.  
+
+And it’s not just the pixels that need to cooperate—**the colors have to keep up too**, and that's where things get *really* fun!  
+
+Thanks to this shifting, you can end up with **up to 4 colors per 8-pixel row**, while Screen 2 on the MSX strictly allows **only 2 colors per row**.  
+
+A real palette-puzzling nightmare!  
+
+## The Final Result  
+
+The screen now displays **40 characters across 24 lines**.  
+But wait—**24, not 25** like on a Minitel?  
+
+Well, considering how much of a headache shifting columns was, I wasn't about to *also* deal with shifting rows!  
+So, the **topmost line (line 00) is displayed as line 1**, but internally, it still behaves as **line 0**.  
+
+A little trick to align the stars… or rather, **the pixels**! ✨  
 
 ![Meteo](images/meteo.png)
 
