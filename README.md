@@ -1,15 +1,13 @@
-[🇬🇧 English version](#eng)
+| [🇬🇧 English version](#eng) | [🇪🇸 Versión en español](#esp) | [Changelog](#log) |
+|----------------------------|-----------------------------|------------------|
 
-[🇪🇸 Versión en español](#esp)
-
-
-# EMinEx : Quand le MSX joue au Minitel (version 0.1.2) 
+# EMinEx : Quand le MSX joue au Minitel (version 0.1.3) 
 
 **EMinEx** est un émulateur Minitel (norme **Vidéotex CEPT2**) conçu pour fonctionner sur les ordinateurs **MSX1**. Oui, vous avez bien lu : votre MSX peut désormais se prendre pour un Minitel !  
 
 Minitel, commercialement exploité en France entre 1980 et 2012, a été le premier service au monde à donner accès à des services variés préfigurant ceux du futur Internet grand public, et le plus développé en 1990, avec près de 7 millions de foyers équipés. Il utilisait la norme Videotex, profile CEPT-2 (au contraire de Prestel au Royaume-Uni qui utilisait le Videotex profile CEPT-3 ou Ibertex en Espagne qui utilisait le profile CEPT-1)
 
-Grâce à une cartouche **BadCat Modem WiFi** ([disponible ici](https://sites.google.com/view/badcatelectronics/msx/badcat-wifi-modem)) ou tout autre Modem WiFi (équipé de l'UART 16C550C) utilisant les ports standard RS232 du MSX (0x80...) équipé du firmware Zimodem, il est possible d’accéder aux services Vidéotex via le point d’accès **MiniPavi** ([voir ici](https://www.minipavi.fr/)), lequel offre aujourd'hui un panel de différents services actifs (et qui vous permet également de créer le vôtre !).  
+Grâce à une cartouche **BadCat Modem WiFi** ([disponible ici](https://sites.google.com/view/badcatelectronics/msx/badcat-wifi-modem)) ou tout autre Modem WiFi (équipé d'une UART type 16C550) utilisant les ports standard RS232 du MSX (0x80...) équipé du firmware Zimodem, il est possible d’accéder aux services Vidéotex via le point d’accès **MiniPavi** ([voir ici](https://www.minipavi.fr/)), lequel offre aujourd'hui un panel de différents services actifs (et qui vous permet également de créer le vôtre !).  
 
 Une vidéo Youtube de démonstration est disponible [ici](https://youtu.be/pvBjVk3af6c).
 
@@ -110,13 +108,13 @@ Si vous avez toujours rêvé d’un Minitel sur MSX, **EMinEx** est là pour exa
 
 ---
 <a id="eng"></a>
-# EMinEx: When the MSX Becomes a Minitel (version 0.1.2)
+# EMinEx: When the MSX Becomes a Minitel (version 0.1.3)
 
 **EMinEx** is a Minitel emulator (**Vidéotex CEPT2** standard) designed to run on **MSX1** computers. Yes, you read that right: your MSX can now impersonate a Minitel!
 
 Minitel, commercially operated in France between 1980 and 2012, was the world's first service to provide access to a variety of services foreshadowing those of the future public Internet. It was also the most developed in 1990, with nearly 7 million households equipped. It used the Videotex standard, CEPT-2 profile (unlike Prestel in the United Kingdom, which used the CEPT-3 Videotex profile, or Ibertex in Spain, which used the CEPT-1 profile).
 
-With a **BadCat WiFi Modem** cartridge ([available here](https://sites.google.com/view/badcatelectronics/msx/badcat-wifi-modem)) or any other WiFi modem (with UART 16C550C) using the standard RS232 I/O ports of the MSX (0x80...) equipped with the Zimodem firmware, you can access Vidéotex services via the **MiniPavi** gateway ([see here](https://www.minipavi.fr/)) which currently offers a range of active services (and also allows you to create your own!).
+With a **BadCat WiFi Modem** cartridge ([available here](https://sites.google.com/view/badcatelectronics/msx/badcat-wifi-modem)) or any other WiFi modem (with UART type 16C550) using the standard RS232 I/O ports of the MSX (0x80...) equipped with the Zimodem firmware, you can access Vidéotex services via the **MiniPavi** gateway ([see here](https://www.minipavi.fr/)) which currently offers a range of active services (and also allows you to create your own!).
 
 A demo Youtube video is available [here](https://youtu.be/pvBjVk3af6c).
 
@@ -219,13 +217,13 @@ If you've always dreamed of having a Minitel on your MSX, **EMinEx** is here to 
 
 ---
 <a id="esp"></a>
-# EMinEx : Cuando el MSX juega a ser un Minitel (version 0.1.2)
+# EMinEx : Cuando el MSX juega a ser un Minitel (version 0.1.3)
 
 **EMinEx** es un emulador de Minitel (norma **Vidéotex CEPT2**) diseñado para funcionar en ordenadores **MSX1**. Sí, has leído bien: ¡tu MSX ahora puede hacerse pasar por un Minitel!
 
 Minitel, operado comercialmente en Francia entre 1980 y 2012, fue el primer servicio en el mundo en ofrecer acceso a una variedad de servicios que prefiguraban los del futuro Internet público. También fue el más desarrollado en 1990, con casi 7 millones de hogares equipados. Utilizaba el estándar Videotex, perfil CEPT-2 (a diferencia de Prestel en el Reino Unido, que usaba el perfil CEPT-3 de Videotex, o Ibertex en España, que usaba el perfil CEPT-1).
 
-Gracias al cartucho **BadCat Modem WiFi** ([disponible aquí](https://sites.google.com/view/badcatelectronics/msx/badcat-wifi-modem)) o cualquier otro módem WiFi (con UART 16C550C) que utilice los puertos RS232 estándar del MSX (0x80...)equipado con el firmware Zimodem, es posible acceder a los servicios de Vidéotex a través del punto de acceso **MiniPavi** ([más información aquí](https://www.minipavi.fr/)) que hoy en día ofrece una variedad de servicios activos (¡y que también te permite crear el tuyo!).
+Gracias al cartucho **BadCat Modem WiFi** ([disponible aquí](https://sites.google.com/view/badcatelectronics/msx/badcat-wifi-modem)) o cualquier otro módem WiFi (con UART tipo 16C550) que utilice los puertos RS232 estándar del MSX (0x80...) equipado con el firmware Zimodem, es posible acceder a los servicios de Vidéotex a través del punto de acceso **MiniPavi** ([más información aquí](https://www.minipavi.fr/)) que hoy en día ofrece una variedad de servicios activos (¡y que también te permite crear el tuyo!).
 
 Un video de demostración en YouTube está disponible [aquí](https://youtu.be/pvBjVk3af6c).
 
@@ -312,4 +310,12 @@ Con este desplazamiento, podrías terminar con **hasta 4 colores por línea de 8
 Si siempre has soñado con tener un Minitel en tu MSX, **EMinEx** está aquí para cumplir tu deseo.  
 **¡Disfruta del viaje en el tiempo! 🚀**
 
+<a id="log"></a>
+# Changelog
 
+| **Version** | **Description** |
+|---------|------------|
+| **0.1.3** | Support of UART 16550 family without AFE |
+| **0.1.2** | Dynamic speed configuration (not fixed @57600) |
+| **0.1.1** | Small diplay improvement |
+| **0.1.0** | Initial version |
