@@ -1,7 +1,7 @@
 | [🇬🇧 English version](#eng) | [🇪🇸 Versión en español](#esp) | [Changelog](#log) |
 |----------------------------|-----------------------------|------------------|
 
-# EMinEx : Quand le MSX joue au Minitel (version 0.1.3) 
+# EMinEx : Quand le MSX joue au Minitel (version 0.1.4) 
 
 **EMinEx** est un émulateur Minitel (norme **Vidéotex CEPT2**) conçu pour fonctionner sur les ordinateurs **MSX1**. Oui, vous avez bien lu : votre MSX peut désormais se prendre pour un Minitel !  
 
@@ -321,6 +321,7 @@ Si siempre has soñado con tener un Minitel en tu MSX, **EMinEx** está aquí pa
 
 | **Version** | **Description** |
 |---------|------------|
+| **0.1.4** | Bugs corrections |
 | **0.1.3** | Support of UART 16550 family without AFE |
 | **0.1.2** | Dynamic speed configuration (not fixed @57600) |
 | **0.1.1** | Small diplay improvement |
