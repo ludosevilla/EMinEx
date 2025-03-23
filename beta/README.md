@@ -1,9 +1,10 @@
 # Version 0.1.5
 
-- **emx-0.1.5.com** : "Standalone" version, no need any driver, support UART 16C550  
-- **emx-F0.1.5.com** : Fossil driver version, need Fossil driver
+- **emx-0.1.5.com** : "Standalone" MSX-DOS version, no need any driver, support UART 16C550  
+- **emx-F0.1.5.com** : Fossil driver MSX-DOS version, need Fossil driver
+- **emx-C0.1.5.cas** and **emx-C0.1.5.wav** : Cassette version
 
-## Usage:
+## Usage (only for MSX-DOS versions):
 
 `progname [speed [protocol]]`
 
@@ -19,9 +20,13 @@
     - **Y** = parity (O, E, or N)  
     - **Z** = Stop bits (1 or 2)
 
+Cassette version will always perform auto-detection
+
 ## Examples:
 
 - `emx`  
 - `emx 9600`  
 - `emx 9600 7N1`
 
+## Misc:
+- **drv140.com** : Fossil driver 1.40 by Erik Maas 
