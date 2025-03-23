@@ -20,7 +20,7 @@
     - **Y** = parity (O, E, or N)  
     - **Z** = Stop bits (1 or 2)
 
-Cassette version will always perform auto-detection
+Cassette version will always perform auto-detection and only support UART 16C550
 
 ## Examples:
 
