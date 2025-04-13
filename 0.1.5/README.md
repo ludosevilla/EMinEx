@@ -2,7 +2,7 @@
 
 - **emx-0.1.5.com** : "Standalone" MSX-DOS version, no need any driver, support UART 16C550  
 - **emx-F0.1.5.com** : Fossil driver MSX-DOS version, needs Fossil driver
-- **emx-C0.1.5.cas** and **emx-C0.1.5.wav** : Cassette version
+- **emx-C0.1.5.cas** and **emx-C0.1.5.wav** : Cassette version (without floppy installed)
 
 ## Usage (only for MSX-DOS versions):
 
