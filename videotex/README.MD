@@ -1,4 +1,4 @@
-# 📺 Fichiers Vidéotex – Exemples / Examples / Ejemplos
+# Fichiers Vidéotex – Exemples / Examples / Ejemplos
 
 ---
 
