@@ -1,7 +1,3 @@
-# Fichiers Vidéotex – Exemples / Examples / Ejemplos
-
----
-
 ## 🇫🇷 Français
 Ce dossier contient quelques fichiers **Vidéotex** à titre d'exemple.  
 
