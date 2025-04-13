@@ -1,7 +1,7 @@
 | [🇬🇧 English version](#eng) | [🇪🇸 Versión en español](#esp) | [Changelog](#log) |
 |----------------------------|-----------------------------|------------------|
 
-# EMinEx : Quand le MSX joue au Minitel (version 0.1.4) 
+# EMinEx : Quand le MSX joue au Minitel
 
 **EMinEx** est un émulateur Minitel (norme **Vidéotex CEPT2**) conçu pour fonctionner sur les ordinateurs **MSX1**. Oui, vous avez bien lu : votre MSX peut désormais se prendre pour un Minitel !  
 
@@ -110,7 +110,7 @@ Si vous avez toujours rêvé d’un Minitel sur MSX, **EMinEx** est là pour exa
 
 ---
 <a id="eng"></a>
-# EMinEx: When the MSX Becomes a Minitel (version 0.1.3)
+# EMinEx: When the MSX Becomes a Minitel
 
 **EMinEx** is a Minitel emulator (**Vidéotex CEPT2** standard) designed to run on **MSX1** computers. Yes, you read that right: your MSX can now impersonate a Minitel!
 
@@ -221,7 +221,7 @@ If you've always dreamed of having a Minitel on your MSX, **EMinEx** is here to 
 
 ---
 <a id="esp"></a>
-# EMinEx : Cuando el MSX juega a ser un Minitel (version 0.1.3)
+# EMinEx : Cuando el MSX juega a ser un Minitel
 
 **EMinEx** es un emulador de Minitel (norma **Vidéotex CEPT2**) diseñado para funcionar en ordenadores **MSX1**. Sí, has leído bien: ¡tu MSX ahora puede hacerse pasar por un Minitel!
 
