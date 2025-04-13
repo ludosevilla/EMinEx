@@ -3,7 +3,6 @@
 ---
 
 ## 🇫🇷 Français
-
 📁 Ce dossier contient quelques fichiers **Vidéotex** à titre d'exemple.  
 Ils peuvent être utilisés avec **EMinEx** pour test ou démonstration.
 
@@ -14,7 +13,6 @@ Ces fichiers sont fournis à des fins de test, démonstration ou documentation.
 ---
 
 ## 🇬🇧 English
-
 📁 This folder contains some **Videotex** files as examples.  
 They can be used with **EMinEx** for testing or demonstration purposes.
 
@@ -25,7 +23,6 @@ These files are provided for testing, demo or documentation purposes.
 ---
 
 ## 🇪🇸 Español
-
 📁 Esta carpeta contiene algunos archivos **Videotex** a modo de ejemplo.  
 Pueden utilizarse con **EMinEx** para pruebas o demostraciones.
 
