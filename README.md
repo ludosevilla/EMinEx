@@ -321,6 +321,7 @@ Si siempre has soñado con tener un Minitel en tu MSX, **EMinEx** está aquí pa
 
 | **Version** | **Description** |
 |---------|------------|
+| **0.1.5** | Added parameters |
 | **0.1.4** | Bugs corrections |
 | **0.1.3** | Support of UART 16550 family without AFE |
 | **0.1.2** | Dynamic speed configuration (not fixed @57600) |
