@@ -3,7 +3,7 @@
 
 # EMinEx : Quand le MSX joue au Minitel
 
-**EMinEx** est un émulateur Minitel (norme **Vidéotex CEPT2**) conçu pour fonctionner sur les ordinateurs **MSX1**. Oui, vous avez bien lu : votre MSX peut désormais se prendre pour un Minitel !  
+**EMinEx** est un émulateur Minitel (norme **Vidéotex CEPT2**) conçu pour fonctionner sur les ordinateurs **MSX1** (64Ko min). Oui, vous avez bien lu : votre MSX peut désormais se prendre pour un Minitel !  
 
 Il ne nécessite aucun driver particulier.
 
