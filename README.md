@@ -321,6 +321,7 @@ Si siempre has soñado con tener un Minitel en tu MSX, **EMinEx** está aquí pa
 
 | **Version** | **Description** |
 |---------|------------|
+| **0.1.6** | Support for systems with unusual memory paging (e.g. HB-F500F)  |
 | **0.1.5** | Added parameters & Fossil support |
 | **0.1.4** | Bugs corrections |
 | **0.1.3** | Support of UART 16550 family without AFE |
