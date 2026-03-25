@@ -1,7 +1,7 @@
 | [🇬🇧 English version](#eng) | [🇪🇸 Versión en español](#esp) |
 |----------------------------|-----------------------------|
 
-# Version 0.1.5
+# Version 0.1.6
 
 - **emx-0.1.6.com** : Version MSX-DOS "autonome", ne nécessite aucun pilote, compatible avec l’UART 16C550  
 - **emx-F0.1.6.com** : Version MSX-DOS pour pilote Fossil, nécessite un pilote Fossil  
