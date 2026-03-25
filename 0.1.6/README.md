@@ -3,9 +3,9 @@
 
 # Version 0.1.5
 
-- **emx-0.1.5.com** : Version MSX-DOS "autonome", ne nécessite aucun pilote, compatible avec l’UART 16C550  
-- **emx-F0.1.5.com** : Version MSX-DOS pour pilote Fossil, nécessite un pilote Fossil  
-- **emx-C0.1.5.cas** et **emx-C0.1.5.wav** : Version cassette (sans lecteur de disquette installé)
+- **emx-0.1.6.com** : Version MSX-DOS "autonome", ne nécessite aucun pilote, compatible avec l’UART 16C550  
+- **emx-F0.1.6.com** : Version MSX-DOS pour pilote Fossil, nécessite un pilote Fossil  
+- **emx-C0.1.6.cas** et **emx-C0.1.6.wav** : Version cassette (sans lecteur de disquette installé)
 
 ## Utilisation (valable uniquement pour les versions MSX-DOS) :
 
@@ -38,11 +38,11 @@ Après exécution, vous devrez taper `_system` pour revenir à MSX-DOS.
 
 ---
 <a id="eng"></a>
-# Version 0.1.5
+# Version 0.1.6
 
-- **emx-0.1.5.com** : "Standalone" MSX-DOS version, no need any driver, support UART 16C550  
-- **emx-F0.1.5.com** : Fossil driver MSX-DOS version, needs Fossil driver
-- **emx-C0.1.5.cas** and **emx-C0.1.5.wav** : Cassette version (without floppy installed)
+- **emx-0.1.6.com** : "Standalone" MSX-DOS version, no need any driver, support UART 16C550  
+- **emx-F0.1.6.com** : Fossil driver MSX-DOS version, needs Fossil driver
+- **emx-C0.1.6.cas** and **emx-C0.1.6.wav** : Cassette version (without floppy installed)
 
 ## Usage (only for MSX-DOS versions):
 
@@ -75,11 +75,11 @@ After loading, you will need to type `_system` to return to MSX-DOS.
 
 ---
 <a id="esp"></a>
-# Versión 0.1.5
+# Versión 0.1.6
 
-- **emx-0.1.5.com** : Versión MSX-DOS "independiente", no requiere ningún controlador, compatible con UART 16C550  
-- **emx-F0.1.5.com** : Versión MSX-DOS con controlador Fossil, necesita un controlador Fossil  
-- **emx-C0.1.5.cas** y **emx-C0.1.5.wav** : Versión en cassette (sin disquetera instalada)
+- **emx-0.1.6.com** : Versión MSX-DOS "independiente", no requiere ningún controlador, compatible con UART 16C550  
+- **emx-F0.1.6.com** : Versión MSX-DOS con controlador Fossil, necesita un controlador Fossil  
+- **emx-C0.1.6.cas** y **emx-C0.1.6.wav** : Versión en cassette (sin disquetera instalada)
 
 ## Uso (solo para versiones MSX-DOS):
 
